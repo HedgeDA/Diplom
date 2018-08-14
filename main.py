@@ -196,8 +196,6 @@ def main_v2(user_id, common_group_friend_count):
         if count_friends == 0:
             info = get_group_info(group_id)
 
-            print(info['name'], count_friends)
-
             secret_groups.append(
                 {
                     'gid': group_id,
